@@ -2,8 +2,6 @@
 
 Color Probe is a Vue 3 based application that allows users to extract and analyze HEX color codes from uploaded images.
 
-![Demo Image](assets/demo.png)
-
 ## Features
 
 - Upload an image and select a pixel to get the corresponding HEX color value.
@@ -13,8 +11,8 @@ Color Probe is a Vue 3 based application that allows users to extract and analyz
 
 ## Technologies Used
 
-- [Vue 3](https://v3.vuejs.org/)
-- [EyeDropper API](https://wicg.github.io/eyedropper-api/)
+- [Vue 3](https://vuejs.org/)
+- [EyeDropper API](https://developer.mozilla.org/en-US/docs/Web/API/EyeDropper)
 
 ## Contributing
 
