@@ -42,7 +42,7 @@ const handleCopyColor = async () => {
 
 <template>
   <div class="control-form">
-    <h1 class="heading-text">Pick color from image</h1>
+    <h1 class="heading-text">Probe color from image</h1>
 
     <div class="form-section">
       <p>1. Select an image</p>

@@ -1,17 +1,14 @@
 <script setup>
-import { defineProps, ref, computed } from 'vue';
-
-const props = defineProps(['image']);
-const src = computed(() => props.image || NoImage);
+const { image } = defineProps(['image']);
 </script>
 
 <template>
   <div className="image-preview">
-    <div v-if="props.image" class="image-container">
-      <img :src="props.image" alt="Working image" />
+    <div v-if="image" class="image-container">
+      <img :src="image" alt="Working image" />
       <div
         class="background-image"
-        :style="{ backgroundImage: `url(${props.image})` }"
+        :style="{ backgroundImage: `url(${image})` }"
       />
     </div>
     <div v-else>
